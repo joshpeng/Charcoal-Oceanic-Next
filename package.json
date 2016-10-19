@@ -1,8 +1,12 @@
 {
 	"name": "theme-charcoal-oceanicnext",
 	"displayName": "Charcoal Oceanic Next",
-	"description": "Based on Dnld's Charcoal theme for Sublime Text. Oceanic Next with ES6/Babel support.",
-	"version": "0.0.1",
+	"description": "Dimmed Oceanic Next theme with ES6/Babel support.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/joshpeng/Charcoal-Oceanic-Next.git"
+	},
+	"version": "1.0.0",
 	"publisher": "joshpeng",
 	"engines": {
 		"vscode": "^1.5.0"
@@ -11,6 +15,10 @@
 		"Themes"
 	],
 	"icon": "images/icon.png",
+	"galleryBanner": {
+		"color": "#44494f",
+		"theme": "dark"
+	},
 	"contributes": {
 		"themes": [
 			{
@@ -19,8 +27,5 @@
 				"path": "./themes/Charcoal Oceanic Next.tmTheme"
 			}
 		]
-	},
-	"__metadata": {
-		"publisherDisplayName": "Josh Peng"
 	}
 }
