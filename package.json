@@ -1,0 +1,26 @@
+{
+	"name": "theme-charcoal-oceanicnext",
+	"displayName": "Charcoal Oceanic Next",
+	"description": "Based on Dnld's Charcoal theme for Sublime Text. Oceanic Next with ES6/Babel support.",
+	"version": "0.0.1",
+	"publisher": "joshpeng",
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "images/icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Charcoal Oceanic Next",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Charcoal Oceanic Next.tmTheme"
+			}
+		]
+	},
+	"__metadata": {
+		"publisherDisplayName": "Josh Peng"
+	}
+}
