@@ -74,11 +74,11 @@
 			<key>name</key>
 			<string>Variable Properties</string>
 			<key>scope</key>
-			<string>meta.property.object.js</string>
+			<string>variable.other.property.static, meta.property.object</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#909794</string>
+				<string>#cfd2d1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -103,17 +103,7 @@
 				<string>#5FB3B3</string>
 			</dict>
 		</dict>
-        <dict>
-			<key>name</key>
-			<string>JSX {}</string>
-			<key>scope</key>
-			<string>jsx.punctuation.section.embedded</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F99157</string>
-			</dict>
-		</dict>
+        
 		<dict>
 			<key>name</key>
 			<string>Tag</string>
@@ -129,7 +119,7 @@
 			<key>name</key>
 			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
-			<string>entity.name.function, entity.name.function.class.js, support.function, keyword.other.special-method, meta.block-level</string>
+			<string>entity.name.function, entity.name.function.class.js, support.function, variable.function, keyword.other.special-method, meta.block-level</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -184,6 +174,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Import Class, Variable Class</string>
+			<key>scope</key>
+			<string>variable.other.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EB606B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Sub-methods</string>
 			<key>scope</key>
 			<string>entity.name.module.js, variable.import.parameter.js</string>
@@ -214,7 +215,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D8DEE9</string>
+				<string>#6699CC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -225,7 +226,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D8DEE9</string>
+				<string>#d8dee9</string>
 			</dict>
 		</dict>
 		<dict>

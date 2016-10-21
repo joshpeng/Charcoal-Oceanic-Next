@@ -1,31 +1,31 @@
 {
-	"name": "theme-charcoal-oceanicnext",
-	"displayName": "Charcoal Oceanic Next",
-	"description": "Dimmed Oceanic Next theme with ES6/Babel support.",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/joshpeng/Charcoal-Oceanic-Next.git"
-	},
-	"version": "1.0.1",
-	"publisher": "joshpeng",
-	"engines": {
-		"vscode": "^1.5.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "images/icon.png",
-	"galleryBanner": {
-		"color": "#44494f",
-		"theme": "dark"
-	},
-	"contributes": {
-		"themes": [
-			{
-				"label": "Charcoal Oceanic Next",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Charcoal Oceanic Next.tmTheme"
-			}
-		]
-	}
+    "name": "theme-charcoal-oceanicnext",
+    "displayName": "Charcoal Oceanic Next",
+    "description": "Dimmed Oceanic Next theme with ES6/Babel support.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/joshpeng/Charcoal-Oceanic-Next.git"
+    },
+    "version": "1.1.1",
+    "publisher": "joshpeng",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#44494f",
+        "theme": "dark"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Charcoal Oceanic Next",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Charcoal Oceanic Next.tmTheme"
+            }
+        ]
+    }
 }
