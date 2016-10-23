@@ -6,7 +6,8 @@
         "type": "git",
         "url": "https://github.com/joshpeng/Charcoal-Oceanic-Next.git"
     },
-    "version": "1.1.1",
+    "version": "1.1.2",
+    "license": "MIT",
     "publisher": "joshpeng",
     "engines": {
         "vscode": "^1.5.0"
