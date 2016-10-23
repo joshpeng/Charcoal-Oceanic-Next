@@ -63,7 +63,7 @@
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable, variable.meta.jsx</string>
+			<string>variable, variable.meta.jsx, variable.other.readwrite.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -119,7 +119,7 @@
 			<key>name</key>
 			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
-			<string>entity.name.function, entity.name.function.class.js, support.function, variable.function, keyword.other.special-method, meta.block-level</string>
+			<string>entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -222,11 +222,11 @@
 			<key>name</key>
 			<string>meta.method.js</string>
 			<key>scope</key>
-			<string>meta.class-method.js entity.name.function.js, variable.function.constructor</string>
+			<string>meta.class-method.js entity.name.function.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#d8dee9</string>
+				<string>#D8DEE9</string>
 			</dict>
 		</dict>
 		<dict>
