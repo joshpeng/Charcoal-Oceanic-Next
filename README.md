@@ -13,3 +13,6 @@ Original [Oceanic Next](https://github.com/voronianski/oceanic-next-color-scheme
 ![ES7 Bind Operator](https://raw.githubusercontent.com/joshpeng/Charcoal-Oceanic-Next/master/images/es7_bind_operator.png)
 
 ![Example](https://raw.githubusercontent.com/joshpeng/Charcoal-Oceanic-Next/master/images/example.png)
+
+## Changelog
+Please see [here](https://github.com/joshpeng/Charcoal-Oceanic-Next/blob/master/CHANGELOG.md).
