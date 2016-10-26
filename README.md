@@ -1,4 +1,4 @@
-# Charcoal Oceanic Next
+# Charcoal Oceanic Next [![VS Code marketplace button](http://vsmarketplacebadge.apphb.com/installs/joshpeng.theme-charcoal-oceanicnext.svg)](https://marketplace.visualstudio.com/items?itemName=joshpeng.theme-charcoal-oceanicnext)
 Theme for Visual Studio Code. Optimized for use with [Sublime Babel](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode).
 
 Original [Oceanic Next](https://github.com/voronianski/oceanic-next-color-scheme) theme by Dmitri Voronianski. This version adopts some of the scoping and color improvements and tweaks from Dnld's [Charcoal](https://packagecontrol.io/packages/Charcoal), Oleg's [Eagle Oceanic Next](https://marketplace.visualstudio.com/items?itemName=graf009.Eagle-Oceanic-Next), and some of my own.
