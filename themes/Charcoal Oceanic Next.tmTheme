@@ -140,7 +140,7 @@
 			<key>name</key>
 			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
-			<string>function-call.method.with-arguments, meta.class-method.js entity.name.function.js, entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level</string>
+			<string>function-call.method.with-arguments, meta.class-method.js entity.name.function.js, entity.name.function, entity.name.function.arrow, meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

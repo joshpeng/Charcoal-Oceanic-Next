@@ -1,4 +1,7 @@
 # Changelog
+v.NEXT
+- Improved coloring of arrow functions (be sure to use latest Sublime Babel)
+
 v1.14
 - Improved Python coloring
 - Fixed ES6 arrow coloring
