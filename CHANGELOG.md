@@ -1,4 +1,9 @@
 # Changelog
+v1.14
+- Improved Python coloring
+- Fixed ES6 arrow coloring
+- Fixed function call coloring
+
 v1.1.3
 - Fixed ES6 anonymous function colors
 - Removed another extra red color variation

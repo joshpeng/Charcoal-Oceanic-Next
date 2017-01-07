@@ -61,6 +61,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Python Comments</string>
+			<key>scope</key>
+			<string>python.comment, python.punctuation.definition.comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#898e99</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
 			<string>variable, variable.meta.jsx, variable.other.readwrite.js</string>
@@ -94,6 +105,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Python Keyword</string>
+			<key>scope</key>
+			<string>python.keyword.control.flow, python.keyword.operator.logical</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C594C5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Operator, Misc</string>
 			<key>scope</key>
 			<string>keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.tag.string, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution</string>
@@ -103,23 +125,22 @@
 				<string>#5FB3B3</string>
 			</dict>
 		</dict>
-        
-		<dict>
+        <dict>
 			<key>name</key>
-			<string>Tag</string>
+			<string>Python Punctuation</string>
 			<key>scope</key>
-			<string>entity.name.tag, meta.tag.sgml, markup.deleted.git_gutter</string>
+			<string>python.punctuation.definition</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EC5F67</string>
+				<string>#5FB3B3</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
-			<string>meta.class-method.js entity.name.function.js, entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level</string>
+			<string>function-call.method.with-arguments, meta.class-method.js entity.name.function.js, entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -141,7 +162,7 @@
 			<key>name</key>
 			<string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
 			<key>scope</key>
-			<string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit</string>
+			<string>constant.numeric, constant.language, support.constant, constant.character, arrow.variable.parameter, variable.parameter, keyword.other.unit</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -163,9 +184,44 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Python String, Inherited Class</string>
+			<key>scope</key>
+			<string>python.string, python.type.support.class.inheritance</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>normal</string>
+				<key>foreground</key>
+				<string>#99C794</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Class, Support</string>
 			<key>scope</key>
 			<string>entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FAC863</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tag</string>
+			<key>scope</key>
+			<string>entity.name.tag, meta.tag.sgml, markup.deleted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EC5F67</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Python Support</string>
+			<key>scope</key>
+			<string>python.builtin</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -205,6 +261,17 @@
 				<string>italic</string>
 				<key>foreground</key>
 				<string>#EC5F67</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Python Variable.parameter</string>
+			<key>scope</key>
+			<string>python.variable.language.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F99157</string>
 			</dict>
 		</dict>
 		<dict>
@@ -273,6 +340,28 @@
 			<dict>
 				<key>foreground</key>
 				<string>#5FB3B3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Python Regular Expressions</string>
+			<key>scope</key>
+			<string>python.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BB80B3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Python Regular Expressions</string>
+			<key>scope</key>
+			<string>python.regexp.character.set.constant, python.regexp.backreference</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#99C794</string>
 			</dict>
 		</dict>
 		<dict>
