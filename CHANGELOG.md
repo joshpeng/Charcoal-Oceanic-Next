@@ -1,6 +1,7 @@
 # Changelog
 v.NEXT
 - Improved coloring of arrow functions (be sure to use latest Sublime Babel)
+- Fixed for VSC 1.9's new token flattening
 
 v1.14
 - Improved Python coloring
