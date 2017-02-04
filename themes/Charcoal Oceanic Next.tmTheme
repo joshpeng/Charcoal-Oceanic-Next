@@ -63,7 +63,7 @@
 			<key>name</key>
 			<string>Python Comments</string>
 			<key>scope</key>
-			<string>python.comment, python.punctuation.definition.comment</string>
+			<string>source.python comment, punctuation.definition.comment.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -107,7 +107,7 @@
 			<key>name</key>
 			<string>Python Keyword</string>
 			<key>scope</key>
-			<string>python.keyword.control.flow, python.keyword.operator.logical</string>
+			<string>keyword.control.flow.python, keyword.operator.logical.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -129,7 +129,7 @@
 			<key>name</key>
 			<string>Python Punctuation</string>
 			<key>scope</key>
-			<string>python.punctuation.definition</string>
+			<string>source.python punctuation.definition</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -173,7 +173,7 @@
 			<key>name</key>
 			<string>String, Symbols, Inherited Class, Markup Heading</string>
 			<key>scope</key>
-			<string>string, punctuation.tag.definition.string, tag.string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js</string>
+			<string>string, punctuation.definition.string, punctuation.tag.definition.string, tag.string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -186,7 +186,7 @@
 			<key>name</key>
 			<string>Python String, Inherited Class</string>
 			<key>scope</key>
-			<string>python.string, python.type.support.class.inheritance</string>
+			<string>source.python string, meta.class.inheritance support.type.python</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -221,7 +221,7 @@
 			<key>name</key>
 			<string>Python Support</string>
 			<key>scope</key>
-			<string>python.builtin</string>
+			<string>support.function.builtin.python, variable.legacy.builtin.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -232,7 +232,7 @@
 			<key>name</key>
 			<string>Import Class, Variable Class</string>
 			<key>scope</key>
-			<string>variable.other.class</string>
+			<string>variable.other.class, meta.class variable.other</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -267,9 +267,11 @@
 			<key>name</key>
 			<string>Python Variable.parameter</string>
 			<key>scope</key>
-			<string>python.variable.language.parameter</string>
+			<string>variable.parameter.function.language.python</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#F99157</string>
 			</dict>
@@ -335,7 +337,7 @@
 			<key>name</key>
 			<string>Regular Expressions</string>
 			<key>scope</key>
-			<string>string.regexp</string>
+			<string>string.regexp, string.regexp keyword</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -346,18 +348,7 @@
 			<key>name</key>
 			<string>Python Regular Expressions</string>
 			<key>scope</key>
-			<string>python.regexp</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#BB80B3</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Python Regular Expressions</string>
-			<key>scope</key>
-			<string>python.regexp.character.set.constant, python.regexp.backreference</string>
+			<string>source.python constant.character.set.regexp, source.python meta.backreference.regexp, source.python entity.name.tag.backreference.regexp</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
