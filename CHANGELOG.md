@@ -1,9 +1,9 @@
 # Changelog
-v.NEXT
+v1.1.5
 - Improved coloring of arrow functions (be sure to use latest Sublime Babel)
 - Fixed for VSC 1.9's new token flattening
 
-v1.14
+v1.1.4
 - Improved Python coloring
 - Fixed ES6 arrow coloring
 - Fixed function call coloring
